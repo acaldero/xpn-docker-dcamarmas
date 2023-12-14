@@ -1,10 +1,19 @@
-# Ubuntu 22.04 LTS in Docker for Laboratories (v2.2)
+# XPN on Docker v2.2 (with Ubuntu 22.04 LTS)
 
 ## Contents
 
+ * [Getting xpn-docker](https://github.com/acaldero/lab-docker/#getting-xpn_docker)
  * [Some use cases with lab-docker](https://github.com/acaldero/lab-docker/#some-use-cases-with-lab-docker)
  * [Using lab-docker](https://github.com/acaldero/lab-docker/#using-lab-docker)
 
+
+## Getting xpn-docker
+
+```
+git clone https://github.com/acaldero/xpn_docker.git
+cd xpn_docker
+./lab.sh build
+```
 
 ## Some use cases with lab-docker
 
