@@ -37,9 +37,9 @@ To stop the containers:
 
   <tr>
   <td>
-Apache Spark
+Expand (native)
   </td>
-  <td rowspan="4">
+  <td rowspan="3">
    <pre>
 ./lab.sh start <b>3</b>
 ./lab.sh status
@@ -49,27 +49,13 @@ Apache Spark
    <pre>
 ./lab.sh bash <b>1</b>
 source .profile
-<b>./data/quixote-local.sh</b>
-exit
-   </pre>
-  </td>
-  <td rowspan="4">
-   <pre>
-./lab.sh stop
-   </pre>
-  </td>
-  </tr>
-
-  <tr>
-  <td>
-Expand (native)
-  </td>
-  <td>
-   <pre>
-./lab.sh bash <b>1</b>
-source .profile
 <b>./data/xpn-mpi-native.sh</b>
 exit
+   </pre>
+  </td>
+  <td rowspan="3">
+   <pre>
+./lab.sh stop
    </pre>
   </td>
   </tr>
@@ -177,8 +163,6 @@ exit
 ## Authors
 * :technologist: Félix García-Carballeira
 * :technologist: Alejandro Calderón Mateos
-* :technologist: José Rivadeneira López-Bravo (HDFS)
 * :technologist: Diego Camarmas Alonso (XPN)
 * :technologist: Elias del Pozo Puñal (XPN)
-* :technologist: Saúl Alonso Monsalve
 
