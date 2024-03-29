@@ -2,7 +2,7 @@
 #set -x
 
 #
-#  Copyright 2019-2023 Alejandro Calderon Mateos, Felix Garcia Carballeira, Diego Camarmas Alonso, Jose Rivadeneira Lopez-Bravo
+#  Copyright 2019-2024 Alejandro Calderon Mateos, Felix Garcia Carballeira, Diego Camarmas Alonso, Jose Rivadeneira Lopez-Bravo
 #
 #  This file is part of XPN-Docker proyect.
 #
@@ -163,7 +163,7 @@ do
 		echo "Building initial image..."
 		HOST_UID=$(id -u)
 		HOST_GID=1000
-		docker image build -t u22 --build-arg UID=$HOST_UID --build-arg GID=$HOST_GID -f docker/dockerfile .
+		docker image build -t lab22 --build-arg UID=$HOST_UID --build-arg GID=$HOST_GID -f docker/dockerfile .
 	     ;;
 
 	     start)
@@ -260,7 +260,7 @@ do
 
 		# Check params
 		if [ "x$CNAME" == "x" ]; then
-		    echo ": There is not a running u22 container."
+		    echo ": There is not a running lab22 container."
 		    exit
 		fi
 
